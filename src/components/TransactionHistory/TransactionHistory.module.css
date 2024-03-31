@@ -1,0 +1,29 @@
+.headTable {
+  margin-top: 40px;
+  background-color: #242120;
+  border: 2px solid #000000;
+  color: #fff;
+}
+.tbody {
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.table {
+  width: 520px;
+  table-layout: fixed;
+  /* width: 100%; */
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 0, 0);
+  margin-top: 48px;
+}
+
+.сolumn:nth-child(odd) {
+  background-color: #fff;
+  color: #000;
+}
+
+.сolumn:nth-child(even) {
+  background-color: #bdb9b9;
+  color: #000;
+}
